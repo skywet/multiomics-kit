@@ -1,5 +1,9 @@
 # Multiomics-kit for MMCB
 
+## Introduction
+
+This is a one-key analysis tool-kit for multiomics analysis and correlation analysis with PCA, PLS-DA, Spearman and Correlation network embedded. The main purpose of the development is for the convenience of scientists in MMCB lab.
+
 ## Dependence
 
 - pandas
