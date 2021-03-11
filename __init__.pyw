@@ -7,7 +7,7 @@ def main():
     suffix_2 = input("Please input the name of the second omics matrix\n")
     suffix = input("Please input the name of the correlation analysis\n")
     top_n = int(input("Please input the number of the top n compounds included in the correlation analysis\n"))
-    threshold = float(input("Please input the threshold for network analysis(e.g. 0.4)"))
+    threshold = float(input("Please input the threshold for network analysis(e.g. 0.4)\n"))
     print("\n#0 Preprocessing")
     print("Preprocessing the data......")
     omics_1, comp_1 = utils.fetch_scaled_data("input_data/omics_1.csv")
